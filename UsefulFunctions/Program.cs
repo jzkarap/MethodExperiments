@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 
 namespace UsefulFunctions
@@ -7,6 +8,8 @@ namespace UsefulFunctions
 	{
 		static void Main(string[] args)
 		{
+			AlphabetBuilder();
+
 			AnimateString("This is my string", .2, true);
 
 			AnimateString("This is my string vertically", .2, false);
@@ -80,6 +83,39 @@ namespace UsefulFunctions
 
 			Thread.Sleep(printDelay);
 			Console.WriteLine();
+		}
+
+		/// <summary>
+		/// Builds the alphabet to screen one letter at a time,
+		/// with each subsequent line adding subsequent letter
+		/// </summary>
+		static void AlphabetBuilder()
+		{
+			List<char> fullAlphabet = new List<char>  { 'A', 'B', 'C', 'D', 'E',
+													'F', 'G', 'H', 'I', 'J',
+													'K', 'L', 'M', 'N', 'O',
+													'P', 'Q', 'R', 'S', 'T',
+													'U', 'V', 'W', 'X', 'Y', 'Z'};
+
+			List<char> builtAlphabet = new List<char>();
+
+			int currentLetter = 0;
+
+			while (currentLetter < fullAlphabet.Count)
+			{
+				builtAlphabet.Add(fullAlphabet[currentLetter]);
+
+				foreach (char letter in builtAlphabet)
+				{
+					Console.Write(letter);
+					Thread.Sleep(5);
+				}
+
+				Console.WriteLine();
+				currentLetter++;
+			}
+
+			Console.WriteLine("THAT'S ALL FOLKS");
 		}
 	}
 }
