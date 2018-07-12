@@ -1,0 +1,11 @@
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\bin\Debug\netcoreapp2.1\UsefulFunctions.deps.json
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\bin\Debug\netcoreapp2.1\UsefulFunctions.runtimeconfig.json
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\bin\Debug\netcoreapp2.1\UsefulFunctions.runtimeconfig.dev.json
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\bin\Debug\netcoreapp2.1\UsefulFunctions.dll
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\bin\Debug\netcoreapp2.1\UsefulFunctions.pdb
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\obj\Debug\netcoreapp2.1\UsefulFunctions.csprojAssemblyReference.cache
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\obj\Debug\netcoreapp2.1\UsefulFunctions.csproj.CoreCompileInputs.cache
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\obj\Debug\netcoreapp2.1\UsefulFunctions.AssemblyInfoInputs.cache
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\obj\Debug\netcoreapp2.1\UsefulFunctions.AssemblyInfo.cs
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\obj\Debug\netcoreapp2.1\UsefulFunctions.dll
+C:\Users\John Karaplis\SideProjects\UsefulFunctions\UsefulFunctions\obj\Debug\netcoreapp2.1\UsefulFunctions.pdb
